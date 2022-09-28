@@ -1,0 +1,40 @@
+.cart-items-list{
+    display: flex;
+    border: 2px solid black;
+    width: 580px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-color: rgb(193, 174, 211);
+    background-color: aqua;
+}
+.cart-item-total-price-name{
+    margin-left: 855px;
+    margin-top:50px;
+    position: absolute;
+   font-weight: bold;
+    font-size: 30px;
+
+}
+.cart-items-price{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.cart-items-name{
+    margin-left: 15px;
+   font-weight: bold;
+}
+.mycontainer{
+    display: flex;
+    margin-top: 80px;
+    
+}
+.cart-items-empty{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+}

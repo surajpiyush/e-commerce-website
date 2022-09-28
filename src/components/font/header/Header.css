@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: rgb(40, 29, 197);
+    height: 60px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.head{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 20px;
+}
+h1{
+    
+    padding-left: 55px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.cart{
+    margin-left: 650px;
+   
+}
+h1{
+    color: aliceblue;
+}
+.txt{
+    margin-left: -50px;
+}
