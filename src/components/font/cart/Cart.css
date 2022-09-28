@@ -2,8 +2,8 @@
     display: flex;
     border: 2px solid black;
     width: 580px;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
     border-color: rgb(193, 174, 211);
     background-color: aqua;
 }
