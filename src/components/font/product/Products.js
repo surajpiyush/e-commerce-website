@@ -1,8 +1,13 @@
 import React from "react";
+import Header from "../header/Header";
 import "./Products.css";
-const Products = ({ productItems,handleAddProduct ,handleMyProduct}) => {
+const Products = ({ productItems,handleAddProduct ,handleMyProduct,cartItems}) => {
   return (
+
+    <div><Header cartItems={cartItems} />
     <div className="products">
+
+
       {productItems.map((productItem) => (
         <div className="card"  >
           <div className="img-container" key={productItem.id}>
@@ -27,7 +32,7 @@ const Products = ({ productItems,handleAddProduct ,handleMyProduct}) => {
           </div>
         </div>
       ))}
-    </div>
+    </div></div>
   );
 };
 

@@ -2,8 +2,9 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Products from "../product/Products";
 import Cart from "../cart/Cart";
-import Signup from "../../../register/Signup";
-
+import Details from "../../../signcomponents/Letstart"
+import  Home from "../../../signcomponents/Home";
+import Login from "../../../signcomponents/Login";
 const MyRoutes = ({
   productItems,
   cartItems,
@@ -15,14 +16,16 @@ const MyRoutes = ({
   return (
     <div>
       <Routes>
-        <Route path="/sign" element={<Signup />}></Route>
-
+        <Route path="/" element={<Home />}></Route>
+         <Route path="/login" element={<Login/>}></Route>
+       <Route path="/details" element={<Details/>}></Route>
         <Route
-          path="/main"
+          path="/app"
           exact
           element={
             <>
               <Products
+              cartItems={cartItems}
                 productItems={productItems}
                 handleAddProduct={handleAddProduct}
                 handleMyProduct={handleMyProduct}
