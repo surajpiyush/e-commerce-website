@@ -1,53 +1,55 @@
 .subcontainer{
     display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     justify-content:space-around;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
      background-color: rgb(40, 29, 197);
     height: 60px;
     padding: 5px;
-    padding-left: 20px;
+    font-size:30px ;
+    font-weight: bold;
 }
-.head{
-    color: rgb(24, 94, 156);
-    text-decoration: none;
-    margin-top: 20px;
-}
-h1{
-    
-    padding-left: 55px;
-    color: rgb(28, 123, 206);
-    margin-top: 10px;
-    margin-right: 10px;
-    
-}
+
 .cart{
-    margin-left: 650px;
    
-}
-h1{
-    color: rgb(222, 226, 230);
+   width: 5%;
 }
 .txt{
-    margin-left: -50px;
+ color: white;
 }
 .gotomenu {
-background-color: rgb(113, 114, 179);
-margin-right: -20px;
+background-color: rgb(230, 67, 3);
+
 margin-top: 10px;
 
 width: 90px;
 border-radius: 2px;
-margin-left:1200px;
+margin-left:100px;
 font-size: large;
 font-weight: bold;
 text-decoration: none;
-text-decoration-color: aliceblue;
+text-decoration-color: rgb(36, 100, 156);
 }
 .txt-sign{
     text-decoration: none;
     color: aliceblue;
+    width: 40%;
 }
 .mysign{
     color: white;
     text-decoration: none;
+    width: 40%;
+}
+.myicon{
+   color: white;
+    width: 5%;
+}
+.mycount{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(231, 222, 222);
+    justify-content: center;
+    flex-direction: row;
 }

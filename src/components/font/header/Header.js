@@ -6,25 +6,26 @@ import { BsCartFill } from "react-icons/bs";
 const Header = ({ cartItems }) => {
   return (
     <header className="container">
-      {" "}
+      
       <div className="subcontainer">
-        <div className="header-link">
-          <h1>
+        
+          <div className="myicon">
             <MdRestaurant />
-          </h1>
+         
         </div>
 
-        <h1 className="txt">Food Restaurant</h1>
-       <h1 className="txt-sign">
+        <div className="txt"> Food Restaurant</div>
+       <div className="txt-signup">
           <Link to="/sign"  className="mysign" >Signup</Link>
-       </h1>
+       </div>
         <div className="cart">
-          <h1>
-            <Link to="/cart">
+          <div className="mycount">
+           <div> <Link to="/cart">
               <BsCartFill style={{ color: "black" }} />
-            </Link>
-            {cartItems.length === 0 ? "" : cartItems.length}
-          </h1>
+            </Link></div>
+            <div>
+            {cartItems.length === 0 ? "" : cartItems.length}</div>
+          </div>
         </div>
       </div>
 
