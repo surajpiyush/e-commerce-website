@@ -18,7 +18,13 @@
 .mybtn{
     background-color: rgb(21, 12, 146);
     width: fit-content;
+    border: 2px solid black;
     border-radius: 5px;
-    
+    margin-left: 450px;
+    margin-top: 200px;
    text-decoration: none;
+   
+}
+.mybtn h1{
+    text-decoration: none;
 }
