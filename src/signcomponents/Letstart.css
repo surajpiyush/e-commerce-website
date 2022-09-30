@@ -5,11 +5,13 @@
     background-color: rgb(16, 28, 194);
     font-size: 40px;
     
-    justify-content: flex-start;
+    justify-content: space-around;
 }
+
 .head-txt{
     color: white;
     width: 75%;
+
 }
 .logo{
     color: white;
@@ -18,13 +20,19 @@
 .mybtn{
     background-color: rgb(21, 12, 146);
     width: fit-content;
-    border: 2px solid black;
+   color: white;
     border-radius: 5px;
-    margin-left: 450px;
-    margin-top: 200px;
+    margin: auto;
    text-decoration: none;
+   margin-top: 100px;
    
 }
-.mybtn h1{
+.txt-link{
     text-decoration: none;
+    color: white;
+}
+.letstart-container{
+    display: flex;
+    flex-direction: column;
+    
 }

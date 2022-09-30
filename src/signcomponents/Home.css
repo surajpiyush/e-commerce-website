@@ -1,0 +1,19 @@
+.signupContainer{
+   
+    display: flex;
+    justify-content:space-around;
+    flex-direction:row;
+    background-color: blue;
+    width:max-content;
+  width: 300px;
+    height: 500px;
+    align-items: center;
+   justify-items: center;
+   margin:auto ;
+   margin-top: 50px;
+   border-radius: 5px;
+}
+.sub-btn{
+    margin-top: 10px;
+    width: 250px;
+}

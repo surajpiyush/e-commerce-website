@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import data from "./components/back/data/Data";
 // import Header from "./components/font/header/Header";
 import { BrowserRouter as Router } from "react-router-dom";
 import MyRoutes from "./components/font/Routes/MyRoutes";
-
+import './App.css';
 const App = () => {
   const { productItems } = data;
   const [cartItems, setCartItems] = useState([]);
@@ -64,7 +64,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="app-container">
       
       <Router>
            {/* <Header cartItems={cartItems} />   */}
