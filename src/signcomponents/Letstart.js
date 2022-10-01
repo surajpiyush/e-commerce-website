@@ -9,8 +9,13 @@ const Details = () => {
      <div className="logo"><MdRestaurant/></div>
      <div className="head-txt">Food Restaurant</div>
     </div>
-<h1 className='mybtn'><Link className='txt-link' to="/app">go-to-menu</Link></h1>
-    </div>
+    <div className="gotomenu-container">
+    <h1 className='welcome'>Welcome to Food's Kitchen</h1>
+<h1 className='mybtn'>
+  
+     
+  <Link className='txt-link' to="/app">GO TO MENU</Link></h1>
+    </div></div>
   )
 }
 

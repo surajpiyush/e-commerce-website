@@ -77,9 +77,9 @@ const Login = () => {
   return (
     <>
       <div className="login-container">
-        <section className="d-flex justify-content-between">
-          <div className="left_data mt-3 p-3" style={{ width: "100%" }}>
-            <h3 className="text-center col-lg-6">Sign IN</h3>
+        <section >
+          <div >
+            <h3 className="text-center col-lg-6">Log IN</h3>
             <Form>
               <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
                 <Form.Control
@@ -106,7 +106,7 @@ const Login = () => {
                 variant="primary"
                 className="col-lg-6"
                 onClick={addData}
-                style={{ background: "rgb(67, 185, 127)", width:"200px",height:"30px",marginTop:"10px" ,borderRadius:"5px" ,textDecorationColor:"black"}}
+                style={{ background: "white", width:"260px",height:"30px",marginTop:"10px" ,borderRadius:"5px" ,textDecorationColor:"black"}}
                 type="submit"
               >
                 Submit

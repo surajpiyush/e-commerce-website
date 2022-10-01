@@ -120,7 +120,7 @@ const Home = () => {
                 variant="primary"
                 className="sub-btn"
                 onClick={addData}
-                style={{ background: "rgb(67, 185, 127)",width:"250px" }}
+                style={{ background: "white",height:"30px", width:"250px" }}
                 type="submit"
               >
                 Submit
@@ -128,8 +128,8 @@ const Home = () => {
             </Form>
             <p className="mt-3">
               Already Have an Account{" "}
-              <span>
-                <NavLink to="/login">SignIn</NavLink>
+              <span >
+                <NavLink style={{color:"white",textDecortion:"none"}} to="/login">SignIn</NavLink>
               </span>{" "}
             </p>
           </div>
